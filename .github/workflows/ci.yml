@@ -12,6 +12,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Build
-        run: ./gradlew build
+      run: ./gradlew build
     - name: Docker
-        run: docker build -t java-gh .
+      run: docker build -t java-gh .
